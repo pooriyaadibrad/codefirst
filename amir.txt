@@ -1,0 +1,34 @@
+Microsoft Windows [Version 10.0.22621.2070]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\amhab\Desktop\codefirst>git clone https://github.com/amir-hosein-abdolahi/codefirst.git
+Cloning into 'codefirst'...
+remote: Enumerating objects: 17, done.
+remote: Counting objects: 100% (17/17), done.
+remote: Compressing objects: 100% (16/16), done.
+remote: Total 17 (delta 2), reused 0 (delta 0), pack-reused 0Receiving objects:  82%Receiving objects:  88% (15/17)
+Receiving objects: 100% (17/17), 9.75 KiB | 195.00 KiB/s, done.
+Resolving deltas: 100% (2/2), done.
+
+C:\Users\amhab\Desktop\codefirst>git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\amhab\Desktop\codefirst>cd codefirst
+
+C:\Users\amhab\Desktop\codefirst\codefirst>git branch
+* main
+
+C:\Users\amhab\Desktop\codefirst\codefirst>git branch amirhosein
+
+C:\Users\amhab\Desktop\codefirst\codefirst>git branch
+  amirhosein
+* main
+
+C:\Users\amhab\Desktop\codefirst\codefirst>git switch amirhosein
+Switched to branch 'amirhosein'
+
+C:\Users\amhab\Desktop\codefirst\codefirst>git branch
+* amirhosein
+  main
+
+C:\Users\amhab\Desktop\codefirst\codefirst>
